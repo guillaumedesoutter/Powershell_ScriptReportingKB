@@ -4,7 +4,6 @@ Ce script PowerShell permet de vérifier si des KB spécifiques sont installés 
 
 Le but de ce script est de proposer une recherche affinée ainsi qu'un rapport détaillé plutôt que la vue plutôt généraliste de base des rapport WSUS.
 
----
 
 ## Fonctionnalités
 
@@ -14,7 +13,6 @@ Le but de ce script est de proposer une recherche affinée ainsi qu'un rapport d
 - Signale si des KB sont en attente d'installation.
 - Génère un rapport CSV contenant les informations pour chaque serveur analysé.
 
----
 
 ## Prérequis
 
@@ -22,7 +20,6 @@ Le but de ce script est de proposer une recherche affinée ainsi qu'un rapport d
 - **PowerShell** version 5.1 ou ultérieure.
 - Liste des serveurs et des KB à vérifier dans des fichiers CSV.
 
----
 
 ## Utilisation
 
@@ -45,19 +42,16 @@ Attention a bien respecter la nomenclature KBID:
 .\checkinstallkb.ps1 -csvPath <chemin_vers_csv_serveurs> -csvPath2 <chemin_vers_csv_kb>
 ```
 
----
 
 ## Contribuer
 
 Les contributions sont les bienvenues ! N'hésitez pas à soumettre des issues ou des pull requests pour améliorer ce script.
 
----
 
 ## Licence
 
 Ce projet est sous licence [MIT](LICENSE). Vous êtes libre de l'utiliser, de le modifier et de le distribuer selon les termes de cette licence.
 
----
 
 ## Remerciements
 
