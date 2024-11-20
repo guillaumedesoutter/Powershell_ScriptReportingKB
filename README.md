@@ -21,4 +21,4 @@ Ce script PowerShell permet de vérifier si des KB spécifiques sont installés 
 ### Syntaxe
 
 ```powershell
-/checkinstallkb.ps1 -csvPath <chemin_vers_csv_serveurs> -csvPath2 <chemin_vers_csv_kb>
+.\checkinstallkb.ps1 -csvPath <chemin_vers_csv_serveurs> -csvPath2 <chemin_vers_csv_kb>
