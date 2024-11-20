@@ -1,10 +1,12 @@
 # Script PowerShell : Vérification et Rapport des KB installés
 
-Ce script PowerShell permet de vérifier si des KB spécifiques sont installés sur une liste de serveurs définie dans un fichier CSV. Il génère ensuite un rapport détaillé en CSV.
+Ce script PowerShell permet de vérifier si des KB spécifiques sont installés sur une liste de serveurs définie dans un fichier CSV. Il se connecte sur chaque serveur à partir du WSUS et va vérifier les hotfixes ainsi que les clés de registre pour vérifier la bonne installation des KB. Il génère ensuite un rapport détaillé en CSV.
+
+Le but de ce script est de proposer une recherche affinée ainsi qu'un rapport détaillé plutôt que la vue plutôt généraliste de base des rapport WSUS.
 
 ## Fonctionnalités
 
-- Vérifie si les serveurs sont encore maintenu (exclu les versions en dessous de server 2012).
+- Vérifie si les serveurs sont encore maintenu (signale les versions en dessous de server 2012).
 - Compare une liste de KB fourni en csv avec les derniers correctifs installés sur les serveurs.
 - Vérifie les événements d'installation dans l'Event Viewer pour confirmer le succès des installations.
 - Signale si des KB sont en attente d'installation.
