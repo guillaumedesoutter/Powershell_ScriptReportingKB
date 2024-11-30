@@ -19,6 +19,7 @@ Le but de ce script est de proposer une recherche affinée ainsi qu'un rapport d
 - **Accès administrateur** sur les serveurs à vérifier.
 - **PowerShell** version 5.1 ou ultérieure.
 - Liste des serveurs et des KB à vérifier dans des fichiers CSV.
+- La création d'un répertoire C:\Temp\RapportKB\ pour la génération de l'extract.
 
 
 ## Utilisation
