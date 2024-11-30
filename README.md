@@ -25,7 +25,7 @@ Le but de ce script est de proposer une recherche affinée ainsi qu'un rapport d
 
 ### Fichier CSV Serveurs 
 
-Attention a bien respecter la nomenclature Computers:
+Attention a bien respecter la nomenclature ComputerName:
 
 
 ![image](https://github.com/user-attachments/assets/4086d028-232b-4f24-a13f-af5376a4ac77)
