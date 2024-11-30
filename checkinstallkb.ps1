@@ -30,7 +30,7 @@ $servers = Import-Csv -Path $csvPath
 $KBList = Import-Csv -Path $csvPath2
 
 #Definir le repertoire d'envoi du rapport
-$kbdestination = "C:\temp\RapportKB"
+$kbdestination = "C:\Temp\RapportKB"
 
 #On recupere la date et l'heure
 $date= Get-Date -Format "dd-MM-yyyy_HH-mm"
